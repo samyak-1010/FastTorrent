@@ -1,0 +1,16 @@
+[package]
+name = "r_torrent"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+byteorder = "1.4.3"
+crossterm = "0.27.0"
+hex = "0.4.3"
+rand = "0.8.5"
+reqwest = "0.11.23"
+sha1_smol = "1.0.0"
+tokio = {version = "1.32.0", features = ["full"]}
+url = "2.4.1"
